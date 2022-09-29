@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Pollo Granjero</title>
+</head>
+<body>
+  <div class="container">
+
+    <br>
+    <div class="titulo">
+      <h1>Restaurante Pollo Granjero</h1>
+      <img id="img-titulo" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUTExMVFhUXFx0YGBcXGBgYIBoYGBkaGBcYGxsYHSggHh0nHRcYITEhJSorLi4uGB80OTQtOCgtLisBCgoKDg0OGxAQGy0mICYtLS0tLTAtLS0vLS0tLS0tLS0tLS0tLS8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABAUDBgcCCAH/xABEEAACAQIEAwQGBwUHAwUAAAABAgADEQQSITEFQVEGImFxBxMygZGhFEJSscHR8CNicoKSFSRDU3OisjPS8URjk8Lh/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAMEBQIGAf/EADQRAAEDAgMFCAICAQUBAAAAAAEAAgMRIQQxQRJRYXGhBRMiMoGxwfCR0RThghVCkqLxBv/aAAwDAQACEQMRAD8A7jERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJETFVqqvtMB5kD74NrossSA/GKA3qp7jf7pi/t/D/5n+1/ykDsVA3zPaP8AIftfaFWkSAnF6B2qL7zb75KpVVb2WB8iD90kbI1/lIPIr4ssRE7RIiIRIiIRIiIRIiIRIiIRIiIRIiIRIiIRIiIRIiUXH+0dLDK12XMBrc2Vf4j+A1kcsrIm7TzQfbAZk8AvoFVcV6yoMzMABzJtNb4x2zo0QSCth9Z2CD3A6ncfGcq7TekSrVYiiSbfXYDx9hNgNtTr4TSMVii7F3JZmNyxNydLX/CUDNPL5PAOIq78Vo31ryVpmFJu6y6Xx30ouTajmfXXemtgdQpHeN+ROnntNSxPbLGOTqi3vqqXPxcnWa41ZRz8p4FUEe0NJF/EY67wXHe6/TIfhWWxRtyCuX7RYtjc4l9ye6co1H7oGnhyveRqeNxdYlFq1mzWuPW1LeAtf5CZez/A6uLNx3aQPeqG+vgo5mdH4Xwulh1C01t1J3Pmfyh/dRWDRXkPgdLKzHBt8AqTgvCcaoJfEut9wzGofg97fEeUuhhcQNVxRv40kt8jeZ8Ti0Tc69JXPxrXRfjKZjY412W/8R+lY7iLVoVxS7YYjCD+8ElbgZ1BdNdLtfvJbzIttNr4L20oV1zXW17Z0OZbjrzE0KjxFKoKONGFiDsR0mi8Tw9TAYkik7Krd5CDuvQjY2Nxrfl1liEyizHmudHeIH5HoacFRxGCYPEy3wvpulVVhmUgg8wbj5TLOFdm/SE1KwqZlbQF1F1bbV05fy38LTrHAO0dHFKMrLc7ZWDK1t8pH3by9BjQ4hkg2XdDyPxms18TmZq9iIl5RJERCJERCJERCJERCJERCJERCJETWO1/aBMPTbv5bC7v9kHYC2uY3Fueo6yGedsLC93/AKdAF9ArYKN2w7WphkazWA0LDU5vsJ1bx5a9CRwrtDxqpinu2iA9xL3APU9WO9557QcYbEuWa6qPYp3uEH/cdyfdtKetXmfHG97+9l82g0aNw47zrlktGKIRipzWVib2/XvnQuzWGpUEGdRnOpcgG3h4D3Tn2BptUdAqM2ovlUnY+Am94bh2Kq+1akPLX4b/AHT7OKUBV/D0NStrxIVVzMVyHmbfdKHjPC6DolRqVNUa5DZAHYA2GXoCeZvp53k6ngRTTVi7AaFjfW1gQNvv85seN4SlRqVxpRY5RyOUZQD5EA+6ZGIxbcO9u41J9Bb/ALEX045KWRxAAKq8BhBTomrW/Z0kW4RdDYbAnlfoNddTylFiePB7imLfrlLr0i1imCsPrVEU+Ot7fETQsEGVbtTqC/Mo4HxIn3s4unjMzzmaAaACmQ576qJsjtrNWbOSbmfki08SDMz1NJeoVMF+s9o7T0vX4MVPr0Tf+U6N+B90jsZYcLGZK1I7NTb7p9rskO3IRtAjetGptcSz4BxhsJUzLcoT30FhmsDlIJ2YE3vKmgCLgggjrPZ0vLUkbXVY4VBVCgc26+iOyfauniFC+sD7AP4kAhXG4ax5/fvf1+IorFdSRva2lxcbkcjPmLhXE6tBw9JumdTezgcmHx8r6Tt3B+PJi8P65TepTW4J3ZF7z0nt9YC5+B63gdNiYmd20gu/2lwN6CuyaEeIjynXW91SdAGuFclumGxiVL5TqNxsRfa4/HbSSprWBqWqo1+eQ+Ktt/uy/E9ZsssdlY7+bhxIRQ1oab8+oIUM0fduokSDV4nSU2NRSw3Ve8f6VuZ4HGKXSr/8VX/tlx88UZo97RzIHuuAxx0VjEw0a6uLqwPkZmkouKrlIiIRIiIRIiIRQeLY4UaZfnso6k7fn7p8/dvOPNWq+qUllRruQfbqHf3LqPO/QTffSj2lFMMqtZhdKYvrf/EqD+HYeNus0vsXwsZfpDi5PsA621uW/Xj0ExpZO9lMh8rDRo3u1PpkPVaGDg2jVVnDOxlSp36zZAeQ3t+E2XB9lMJT1NPMerkn5bSbjccKfi3SUuIxjNuZwZJHarWEcbNLrYFxNGkLLlXwUAfdItfjYHsj3mUYMgYvE62HwnxsdSvrpKBW307EYirTp0RmcsDbYBFIzMx5L4/fOpprr11+M1/gXDUwOGNSpo5T1lZudlBbL5KL6db9ZGo1q9QCviatShTJvSw1EMHItcGr6tWqMba5VAsN7bTzmNk/lvpHk00GZLidwFzWm4UFyQSAqsj9SVtZ0F7E2ubC17gcr8+UpvpPEmOtHBrT/wAtqlZ2I6EohUHyBHnLbh+MSqt0YML2NuRG4IOoPgQDrKHtViqVLO9eklVFpBkp1GCoWBdqrkMCGZVSmFFib1LC15VweF7+cQOoCa1JBJGyCSKb7ZG/LWu99BWlfu/Jah2+4UMPVStTXLTq7qNlqC1x5c5S4epcTeMbTXiHD70MxRgalIObmnVpe1SLHUgqcyk6+0NAAo5/w4m3TznrIGvYwxSmrm2re4N2kVvla+oKsYeTbCnSbwd7Mx5ZG/4kyDeZcOdH8Vy/1d38TJCrYNLr8Tg9KpTbM2SpoFIBNtAe9+6dprleiyMVYWI3/Cx5jxnRzhrJlvYm2Y6C4HO3TlKPj3BfWE+rHeVSw8QNSo+JsOvnK8GKBcdo29lhQTbNGnL2WltTPL9eE2b0f1a30kUkJy1FYOL2A7v/AFBpuBp4g2mvXmw+jjGCljkzXtUDUwfFhcfdLGLJ7h9BUgEjmL9KK+RWxXZcKQc3Tax6T8x1RAAruNdleo1j/KW1mDEI6rlQ5WY2zaHKPrML6EgbX0uRfSRqOFp0r5FsT7TnVmPVmOpM8XG5za7DiK7iRXncdQbrosDnWXipjHU5GK0EuArUwCGJ2GZhZGJ0sV5izEzA9SmSQFqV2Bse+zqD4lmFMeQ18JKyZ7ra4IsQdQR0Mk4HA5bU0U1CuyiwCLyDMdAOnO3IyaOKpDYwS85BuvEnPnU7zUZLpwawVKjYegx1NPDr5KXPhr3Ze0eI1Ka98B1G+4IHhcnN5EyTh+EH672/dTT4sdT7ssn0sGi6hRfqdT8TrN7s/srHwu2+8DOHm/Iy9doncQs+aeJ1qVX79Np/aHziSInqvv26opERCJInE8T6qk79Bp5nQfMiS5q3b3HeroeQZz5IpPPxI+ErYuYxQueMwLczYdSvoFTRcL7b8R9diWAYFaYyDxI1c+ZbT+Wbvw5AtGmByQfMXPzM5U9RiSW1YksT1bcn8Z0/g1bPhqbDmlveND915nSRd1G1gyC38KKVCpsTWLMSesx2mGpUsxE/DWiikqszGV2CqAYikW9kVFv5XksvK/F0L7TpoGRXLgu546lcHQEHlvcSg4nxL6MWr9y/qGRWqKXVbMKjiw1JZVGn/t3OgkP0ddpTiKf0esf2tMaE/XQbe8frxvuK4FWBVlup3G2vIgjUEdZ5bDl/Z+KAeLty4ggio9+YpoVVc3bbsFVXY7jCY2j9LRAlRHWlWVb2ZWNlNrmxVnzC5Omax75k7tNwoYxfowUF7ZiToqIe6S53s1jYDUlLi2W4g8C4fSoE0qbVBezsikKAASVZsijTTQtYG2gnnF8byhmVvbcvcG90UZaI/pGe3VzNKeeHE40TNr4Rc2Bca+GpruzJzDaC1CvmGwj6loA5XoPmm4VF7KT2e4ccCi4Y+rCCoWUglgzP3bXuMh3GUqQSdDymo9suEDDYgsoslW7gdGvZx9x98wY7tK1WoKanMzHKFHeJJ0tvlHvMve2tOqMHSOIC+sSrlzK2bMpQi5Nhr18r85LK+VuMZI8+cbNMzTQ+hzzPEg2tfx2wEbJHED7ktMvJXDbmotvqnNr12H3k+6Qry54ZhTbIQczMLgcugv1trLszgGGv3f0UWLl2I6am376KyOIDBibtsFB3sNTy6c7dZIoZQMy6lj3vLp+usj1FcAk2IZrWN+pPe5rp03vrJuH4czsFXmO7l6A37xP1Rp8PHXLcWgcP1/fRZABNgtM7S8CcYkCjTJFbVVUfW0zjTYXOb3mbr2L7CDDMteuQ1Yeyo2Qnnfm3jNr4bw1aQv7T2sW6eCjkPmZKqNKGK7VkfH3LLClCdSPgUz1N8q0WiytACsVdpDOHZuY+My1GuQJYcOw9OrVbMqt6oAWIB7zC9teQHzPhK2Awz55hGw0JrfcApXyd02qi4DBM3dpmw+tV3A8E+03jsPE6TZMJhVpKEQWA95J5knmT1kgT9nu8D2fFhGnZu45uOZ/Q4e+aypZnSGpSIiXlCkREIkREIk5j6ZK9qDAEiwpjQ29qoLjyIG06dOPemtbjN9iqnzpOPxlHHmjGDe9o61+FLAKyBcmKi2x3++bj2Fxt1agx1XvLfodx8PuM2rsj2Go06VN8QgqVagDZX1VARcC3M2Os0qoy1OJuKFqSesITIAAoRNwBYWul/eZmMx8WIc+NtaNFS7S30/ha7XbHiUvjmHy1CbaHaQFM2bFU/XqUcBaybr1/eU81PI8uc1mvTKtYg6SdjgQrDqZjIr0DF7zxefonSLzmalUWtTOV0NwR4cj4HnOu9m+NpjaAbQONHTo35GckqC4tPXA+L1MLWFWn5Mt9GXmD+cpY7BDFR28wyPx9yUUjVvPaTgjatRUMxN3Rif2l92vcd61hY6EAC2glLwrDUq5YYt6qhTqlBNNTs6m9UN1BFpvxrpXopWTVXAI/LzlbieH0qtjUpqxGgbUMB+662Ye4zMwnaD4xR7akWvmOo9MudMpWSOcwtqfQ0PUEehHqtf4Tw3C0+Ip9Hv6kjuZkdCKnq7lbOoN+5UO1u8JaelF/7rT/ANUf8TJdHgyXUitiBlYMAamYXQ3HtqT8+skdqsAuIpU1e+UVMxA5906XkcmLEuOjlcKAaX0rl+d6imIBBFaAa0rau6xtRc74RQvaq2ykZQfrNfp0A187eM2Q4MG7liSR7ItfWw6nmB8JM/s9WZQBYDRUUW18h8JdcO7GEVEd7ZRugOthsL7W636zUYJMWdqMHnag4VJ9TSpvbQLImlMjto+i13DtYX0NzYgC99gNSdR+c3Dh2D9Uuvtt7R/+o8B+Zmx/RKeUL6tMvJcot8LSo4jhDTGZLlBuDqV8QdyPA6ifO0expu7rE7a3ilCeWdaZ0OdqGtF9gkaDQ/leGeRa1SY/pAI0mF6l55VkRcbrWZGvZrBFeq3s01LH3C8heiriZrh3bdzUJ8xUJX/a9vdKL0pcXGHwYw6n9pX08Qn1j8bD4yR6F3/ZLb7dUHx5/kPdPR9kQ7IZOf8Ac8AcgCOpJ/Cp4w1Z94rrURE9gsxIiIRIiIRIiYqtRVBZiFA3JNgPeYRZZyb0t4csy2F/21I2tc94ZBbpqQPfN+q8dUm1KnUqfvWyJ/W9rj+G8rqtIVqvragUstgFGoVhqCSRqwv4W00vrMPtXtDDsYAHAua4GgvvF92evpVWoYnteHELDxC/eVdCUZV8CQQvznDeDA0sWmYHMrsGU6G+VgR853fG0Li4mr8d7PJXtXAy16JD5h9dUN2Rvdex6zzfZeLbC1zHZOsedwPQ1ody0XN2o7clW4rDq6lzmUqO6b2y231F+viDpK7GUS1MNVXQ7VFtfW1iychtqt/IS8+jgIVGq8hfr4yBiaIAtdiAAQu+4NybdP0ZpQzFtgdenwem9Z8WIfFYZbtFrNTBEXykOOqm9vMbj3yOomzvSDAKyg256Ajy6SLicMtwAt+pux28JeZiAbEfKuNxrTbZNeF/0eio3OhkBjLatcnKi36c/ntJGH4MztbNmIGZlS217Wv7/vk+2G5qZkhl8jTzNAOpv6VPBbh6NKxbBOp2SqQPIojfeTLspKXg2Naj3VpWWwuoI5DQjXfz390sf7ZX7DTzOJilM73tbZxrmFN3b2ONieQJ9lNpCY+Nt/dyL2N1t/ULj3i6/wA0gPxVj7KW8WIH4/hPa1UQesrVAzDYch4+J8TEGCkfIHuoAKHMaL45riR4fvL9iiq+z2KNLHDbKGAt0Byq3/InzE6mzMN1FvA3PwsPkZyvCUUqGtin0RhlTlcX7zDwJCgdbGbN2R7QO1NlqXb1ZAzHU5GvlzeRBF+lr9Z6vASbJ7s639aUPt63VftOHaHejSx9f0aj8LcQ4IuDcdZiz62PuPWRWrAd5T3Tv59fzmLE1eY/8GaixVr3GaPqKunsty6dR+uvhPzFt6ii1eyGwv33yKPMkfKT+0NdDhzWbakM7W1sFvm0G+l5x7tT2xTFDJQoLp/i1Rc/yqTYfCeZ7R7Mc/Ejux4XXJ0zuMwb52Oq1cPPtRBpNxbmNFrvaDir4vEmrUcOToLaKAPqrfl4851/0RUrU6A/1T7i72++cZpUbG51PWdz9EtI+ppkgC1PkCPae6k35kDXzl+QN24WNyDh0BPsFDiLMvvXRoiJrqgkREIkREIoXEcctFMzEDzNhbmSeQHX85rlXHNVOYIWts1W6KPFFIJ99hf7RmHiWMFSsSwLuhIWkB/0xf2mvoGNgbk6C2XXeO+HrVPacqPs0vxcjMfNQs8V2zj3SyGIGjBY1qKnXiRoK0FstVp4fDgDaOaz4l6uViatrAm1NFGw2vUz3+Ux8Kq2w9MZjmKAswtcswzO2oIuSSducjf2Cl/Yueruzn/exkingHRQoGgAA8hoN5jjutmgePwB7E1/tXAxlM1+VOD0nOY1MTm6/SawPuAaw8gJLwdAqCjt6xbaMwGax3V7aN/FYXG+oucNKi99pKQb63I38PDz/MSORxy2q/H69lw5oGqf2fRP+FT/AKE/ASNiOA0Hv3St98pP3G4k1Kk9ipOWTPbkSo3NJzWsVuyTLf1VQG+tnFjfz1mvVez2KaqlEXpsW0qE3B1vob6nwnSg081FVgQwBB3Bmhh+1JGOBeA4a6H8hQOgacrHh99qKlx/YEmncOtSoBrdfVlj4Opv8byp4V2OxSE1lC5GQq1Nmu+h0t3bZgbixPMzfeD4o3NJiWsMyMdSV2KE8yump3BF9QTLYi09nBHhsREJIx4XDLLnbQg7v7XLsdiGHZJrfUD788VySsWTT1iA9PVsx94zC3lK5mxDew1MjqUygfFzOncU4BRrVMzAhnFsykjvLrqNjcdR9WU3E+x9UAmlVzD7LgfIiVD2bIPLsnn+qH3WgztWE+YEHXKnvXotDqpXP+PRHjlY/K4nvDYGkO9XqtXI+r7Ce9QST5E28JmxfDznyODTccuR8jzkU8HvuzH3ysSY3bLjsnkK/eS0G7ErA5hqDxWbH8WNVgq7DZRsOm3yHKbL6Pe69VDzQEX55DqPg5+BlRwvh9NDrLWpei61qVtDfw2sQfAi4987imDHiQZA337lHPGJI3Q5VFt1Rcey2KspoG2ppNp/Cfs+XQ+7zJVt4jb8j8LSdg8RTxdEso0PddDup3tp7iD5GUWKx1HCq64iqqFdVB3dLaMANydrDmDPQB7SNoGy8q5paS1woQqftjxdKGFxiM6gtTKItxdmqLZQBudyfcZxjBpYXPOWvaDHjE4mpXt7RsoPJVAAHy+JMgEypLIHWC0MNFstqdVmwtA1HSmN3ZV/qIH4z6N7HYfLSLW0JsP4UFh+PwnEuwfDzUrmpa4pjTxdtFHwzH3ifQnDsN6qkifZGvnufneVYBt4qujG9Xf0osW64apcRE1lTSIiESIiEVQeFXZyXFmbNove8Bckg22Gm09f2FRPthn/AIna39IIX5S1iVW4HDteXhgqTUmlTXmVJ3r96rF4Fhh/6ej/AEL+U9Dg1AaKmT+AlP8AiRLGJO6NjhRwBHEVXO27efyuVek7AYykrNh8TUWmVzZbm+VR31BAvfYzm/ZbtViMA98xq0GN3pk333ZSdm+R59Z9HcWwIrUyvMaqehG3u5T567acAOFqFlVhTZrEEXyOSbofA7j4TIlhjY8wPaNh9xYC+otrq08ablbw8m14XG661gcfTxFJa9Bs1NhfxB5gjkR0nsYica7JdpanD6hKj1lFz+0p35/bXofvtOscL4lhsaufD1VJ5pezA9Cu88xjOzjhnGoqzR27g7itBjxk5WK157FaQKlJ13Bhakp/xwR4Spu7ByVjQxOWtSPVsv8AV3fvIm0VHmhioTVogf5lM/B1Y/JTNxxFWyEz2P8A8+HDClp0cfZpWRjm7Mg5fJXriDWTN9llP+4A/ImSgdPOV3F6lqZHNio+LrJ1Ju6PKbipqFxjgdHErZxryYbiajjextZNab5h0P8A+zfUN5lM4fGyQUeAea7jlfGascRyXLl4Nir2KD4EfcTJycHrqt2tbbYnedDtItU5w6ZToN7aHmLHnK/8GAGob1d+1Z/1DEUptdG19lW8F4WtCmcq6tqxOpa21z4X2Gmpmh+mevQFGipP94LE0wOVP/ELdBtbqfI22vtj2zo8Oo96z1mH7OjexP7zfZTx52sNZ8/cW4nVxNVq9Vy9VzqeQHJVHJQNAJJIWtbsAemi5ijdI7bffnqsAE9TyWtabb2G7Pmu61mXMoa1NSPbcc/4VPzH7sz5pBGzaPoN53K89waKldB9GvZ/1apmHsWqP/qsBp/La38o6zpEhcLwQo0wg1O7Hqx3Mmy5goDDFR3mN3cz+slkvcXGpSIiW1ykREIkREIkREIkREIk1rtZwFa6Mcga4s6fbXw/eH62E2WJDPC2ZhY7LqNxHEL6DRfK3F+FvhqhR721KNydb2DD8RyleO62ZWKvyKkg/ET6K7YdkqeJRjkzX1K8w320PJvv+R4Rx7gFTCscwLUye7UANt9A32W8PhM9kj2P7qWztDo4bx8jMaWotGKYPsc1ZcF7a4il3a9fE1F/ddLgfzKfjebdg/SLhSBem4A+qf2jt7/ZUeJPkBy5Wx5T0pAlafs3DS3LaE7rdMunVTruvZLEpi/7xsQTlQfVvpmPVrXHQXO97y+4hi7stJdwcz25KNgfEkg+SmfO+C4rWoEmlVenffKd/MSXS49XuT6xrnchuX66TTgMcMYjY2gCoy4eVztqtenRdj4r2oojFU6JJYi9lQZiXIIUe4X9/lNnwePSoFCki4BAYFSRbcX39158/dmuMUaWLpVa+cIjZiQuY3G2x11nTcN6S+GozftKpRjnA9S+jk3YbbE94eJbwliOWoqbKuYZK5FdGQ2nu85rifTFg19ijiKh/hRB8Wa/ymvcW9MWJYWw9ClSH2nJqH4DKAfjPpkaNV23DyHT8rs+JxC01Luyqqi5ZiAAOpJ0E5h2w9LKIGpYEZ229ew7g/gU6ufE2XznLOL8fxOMYNiaz1bG4DaKp8FACg+NpW5pC6Y5BWWYUC7rqRicY9V2q1XZ3fVmY3JPj4crbCYGc+79coI58pd9m+z74pvrLSGjOLankqA7k2tfUDn0lWSRkbS96skgCpX72a4EcU92uKSm7sNLnSyDxIO/Ie6/fOy/AxQUEqFNrIo+ovTz/XWYOy/ZlKCoSgUL7FMbLc3uerX19/XbaYw2HfI8TyilPK3dxPE7tBnfLOml2zwSIiaagSIiESIiESIiESIiESIiESIiESUfHez1PEqwsAzAhtLhgeTD8d5eRI5YmSt2Hio+/g8QgNFwPtN6OGpZvVXU8ke5U2GoWpvc72PXlOf4qi9JyjqyMN1YEH5z63rUlYFWAIO4IvNZ492KoYhCuUEH6r3I9zDvL5gyiYZ4T4fG3cbOHrk71VuPEkeZfNQOv6+MzKx850vj/oqK3NLOmn+oh95741t18pqVbsXi0bLkVtd1cDkTs1iNBzG5EjOKjyf4TucKdTY+hKstmY7VULAT9DafrlJ1XgmIUZmw9WwNj3CdR5a+/aYamBrDLejUGY2H7NgSRYkAWvzE7EsbsnA+oUoIUO2s9sslUeGYh7ZKNUg9KbW+JFpa4PsdiqliwWmDa+dtQOuUc/AkTl+JhZ5ngeq5LmjMrXpmw9F6rBKaM7H6qjMfly8fGdL4N6Lr5XcPU6g2poddDb2rW316zoHB+xdGkBdVGlstNQgtvYkC5+U+CWSS0TDzdVo/Z9AoHYloyuuXdlvR29Rr1hnP+WpOUbG7vp/SPidp2DgfZ+nh1GillFlsLBANgo5ect6FFUUKoAUbATLLEODo4SSnacMtw5D5z6qnJK5+aRES8o0iIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEmGth0f2kVvMA/fM0T4RUUKKtq8FoG37MC3S4+6ef7Cw/2OVtGb85aRIThYHGpY0/4hFXpweiLH1YJHXX433kmjhkT2VVfIATPE7ZExnlaByAHsiRESREiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhEiIhF//9k=">
+    </div>
+
+
+        <form action="javascript:void(0);" class="demoForm" id="polloForm">
+            <h3>Combos Disponibles: </h3>
+            <div class="combos">
+            <p>Combo:
+            <div>
+                <input type="radio" id="super" name="combo" value="7.25" checked>Combo Super
+                <input type="number" id="super" name="canCombo" min="1" max="5" value="1">
+              </div>
+            <div>
+                <input type="radio" id="personal" name="combo" value="5.75">Combo Personal
+                <input type="number" id="personal" name="canCombo" min="1" max="5" disabled value="1">
+              </div>
+              <div>
+                <input type="radio" id="infantil" name="combo" value="3.50">
+                <label for="infantil">Combo Infantil</label>
+                <input type="number" id="infantil" name="canCombo" min="1" max="5" disabled value="1">
+              </div>
+              <input type="hidden" name="comboTotal" value="0.00" />
+            </p>
+            </div>
+    <p id="compPollos">
+    
+        
+              <input type="checkbox" name="Ensalada" id="Ensalada" value="1.50" />Ensalada
+              <input type="number" id="cantidadesComp" name="canComplemento" min="1" max="5" value="0" disabled >
+
+   
+       <br>
+            <input type="checkbox" name="Papas" id="Patatas Fritas" value="1.25" />Patatas frita
+            <input type="number" id="cantidadesComp" name="canComplemento" min="1" max="5" value="0" disabled>
+        <br>
+          
+            <input type="checkbox" name="piezaGr" id="Pieza de pollo grande" value="1.75" />Pieza de pollo grande
+            <input type="number" id="cantidadesComp"  name="canComplemento" min="1" max="5" value="0" disabled>
+        <br>
+      
+            <input type="checkbox" name="piezaMd" id="Pieza de pollo mediana" value="1.50" />Pieza de pollo mediana
+            <input type="number" id="cantidadesComp" name="canComplemento" min="1" max="5" value="0" disabled>
+     <br>
+         
+            <input type="checkbox" name="piezaPe" id="Pieza de pollo pequeña" value="1.25" />Pieza de pollo pequeña
+            <input type="number" id="cantidadesComp" name="canComplemento" min="1" max="5" value="0" disabled>
+    <br>
+            <input type="checkbox" name="bebGr"id="Bebida Grande" value="1.50" />Bebida grande
+            <input type="number" id="cantidadesComp" name="canComplemento" min="1" max="5" value="0" disabled>
+       <br>
+            <input type="checkbox" name="bebMd" id="Bebida mediana" value="1.25" />Bebida mediana
+            <input type="number" id="cantidadesComp" name="canComplemento" min="1" max="5" value="0" disabled>
+     <br>
+            <input type="checkbox" name="bebPe" id="Bebida pequeña" value="1.00" />Bebida pequeña
+            <input type="number" id="cantidadesComp" name="canComplemento" min="1" max="5" value="0" disabled>
+      <br>
+            <input type="checkbox" name="cafe" id="Café" value="0.50" />Café
+            <input type="number" id="cantidadesComp" name="canComplemento" min="1" max="5" value="0" disabled>
+           
+            
+              <input type="hidden" name="compsTotal" value="0.00" />
+    
+              <p>
+                <label>
+                Total: $<input type="text" name="total" class="num" value="0.00" readonly="readonly" />
+                </label>
+                </p>
+            </p>
+        </form>
+        <div>
+            <h1>Su factura: </h1>
+            <p id="facture"></p>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Comentarios: </label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" disabled></textarea>
+            <div class="botttton"><button id="botoncito" type="button" class="btn btn-warning">Enviar comentario</button></div>
+          </div>
+        </div>
+<script src="js/pollos.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

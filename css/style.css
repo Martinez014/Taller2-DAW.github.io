@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-top: 5%;
+    height: auto;
+    width: 80vh !important;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRICnFoDe8Jp_1Q5v9lmBZrih8p1WlfZ1JNamgDwLhXXWXZG_Nd_-uGdxFBvWH0BX9BwUY&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+h1, h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.combos{
+    border: 1px solid;
+    text-align: center;
+    font-weight: bold;
+}
+
+.combos input{
+    cursor: pointer;
+}
+
+.complementos{
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid;
+    list-style: none;
+    text-align: center;
+}
+
+.total{
+    padding: 10px;
+}
+
+li input{
+    background-image: url(checkbox-uncheck.png);
+}
+
+#com{
+    display: inline-flex;
+    margin: 10px;
+}
+
+#com input{
+    margin: 5px;
+}
+
+.titulo img{
+    width: 60px;
+    height: 60px;
+    margin-left: 6px;
+}
+.botttton{
+    width: 100%;
+}
+#botoncito{
+    margin: 0 auto;
+}
+
+.titulo{
+    display: inline-flex;
+}
